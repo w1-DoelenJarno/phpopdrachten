@@ -18,12 +18,9 @@
     </title>
 </head>
 <body>
-<header>
-    <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
-</header>
 <?php
 echo("<p>Hello World!</p>");
-echo("<a href='../index.php'>terug</a>");
+echo("<a href='../index.php'>Terug</a>");
 ?>
 </body>
 </html>
