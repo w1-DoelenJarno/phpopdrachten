@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: powderblue;
+    text-align: right;
+}
+
+.menu {
+    margin-left: 20px;
+}
+
+h1 {
+    padding-right: 40px;
+}
+
+aside {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: palegoldenrod;
+}
+
+main {
+    display: inline-block;
+    width: 65%;
+    float: right;
+    margin-left: 5px;
+}
+
+.chapter {
+    margin-top: 20px;
+}

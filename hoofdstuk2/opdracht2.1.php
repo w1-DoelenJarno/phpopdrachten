@@ -12,16 +12,29 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta charset="utf-8">
-    <link href="../style.css" rel="stylesheet" type="text/css">
-    <script src="" defer></script>
+    <link href="../style.css" type="text/css" rel="stylesheet">
+    <script src="#" defer></script>
     <title>
+        Opdracht 2.1
     </title>
 </head>
 <body>
-<?php
-echo("<p>Hello World!</p>");
-echo("<a href='../index.php'>Terug</a>");
-?>
+<header>
+    <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
+</header>
+<aside>
+    <h2 class="menu">Menu</h2>
+    <ul>
+        <li>
+            <a href="../index.php">Terug</a>
+        </li>
+    </ul>
+</aside>
+<main id="wrapper">
+    <h2>Uitwerkingen</h2>
+    <?php
+    echo("<p>Hello World!</p>");
+    ?>
+</main>
 </body>
 </html>
-
