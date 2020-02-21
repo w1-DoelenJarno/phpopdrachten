@@ -33,9 +33,9 @@ include("../includes/header.php");
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
 </main>
-</body>
 <?php
 include("../includes/footer.php");
 ?>
+</body>
 </html>
 
