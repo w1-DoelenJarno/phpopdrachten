@@ -51,13 +51,16 @@
         <li  class="chapter">Hoofdstuk 4
             <ul>
                 <li>
-                    <a href="#">Opdracht 4.1</a>
+                    <a href="hoofdstuk4/opdracht4.1.php">Opdracht 4.1</a>
                 </li>
                 <li>
-                    <a href="#">Opdracht 4.2</a>
+                    <a href="hoofdstuk4/opdracht4.2.php">Opdracht 4.2</a>
                 </li>
                 <li>
                     <a href="#">Opdracht 4.3</a>
+                </li>
+                <li>
+                    <a href="#">Opdracht 4.4</a>
                 </li>
             </ul>
         </li>
