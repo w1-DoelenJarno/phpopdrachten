@@ -20,7 +20,7 @@ switch($courseName) {
     case"Modelleren":
         $teacherName = "Wim van Bijnen";
         break;
-    case"Digitale vaardigen":
+    case"Digitale vaardigheden":
         $teacherName = "Larissa Pielage";
         break;
     case"Computertekenen":
