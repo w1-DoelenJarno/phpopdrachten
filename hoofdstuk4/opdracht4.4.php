@@ -1,9 +1,9 @@
 <?php
 /**
  * User: Jarno van der Doelen
- * Date: 03-03-2020
- * Time: 11:30 PM
- * File: opdracht4.1.php
+ * Date: 12-03-2020
+ * Time: 11:28 AM
+ * File: opdracht4.4.php
  */
 ?>
 <!DOCTYPE html>
@@ -13,9 +13,10 @@
     <meta name="keywords" content="PHP">
     <meta charset="utf-8">
     <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="opdracht4.2.css" rel="stylesheet" type="text/css">
     <script src="#" defer></script>
     <title>
-        Opdracht 4.1
+        Opdracht 4.4
     </title>
 </head>
 <body>
@@ -33,7 +34,13 @@ include("../includes/header.php");
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
     <?php
-    include("../includes/footer.php");
+    $dagNamen = array("zondag", "maandag" , "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag");
+    for($c = 0; $c <= 7; $c++) {
+        $datumAlsGetal = strtotime("+$c days");
+        $dagNummer = date("w", $datumAlsGetal);
+        echo("Dag " . $dagNummer . " is " . $dagNamen[$dagNummer] . " " . date("d-m-Y" , $datumAlsGetal));
+        echo("<br>");
+    }
     ?>
 </main>
 <?php

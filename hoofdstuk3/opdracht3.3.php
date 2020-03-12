@@ -15,7 +15,7 @@
     <link href="../style.css" rel="stylesheet" type="text/css">
     <script src="#" defer></script>
     <title>
-        Index
+        Opdracht 3.3
     </title>
 </head>
 <body>

@@ -1,9 +1,9 @@
 <?php
 /**
  * User: Jarno van der Doelen
- * Date: 03-03-2020
- * Time: 11:30 PM
- * File: opdracht4.1.php
+ * Date: 10-03-2020
+ * Time: 11:27 PM
+ * File: opdracht4.3.php
  */
 ?>
 <!DOCTYPE html>
@@ -13,9 +13,10 @@
     <meta name="keywords" content="PHP">
     <meta charset="utf-8">
     <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="opdracht4.2.css" rel="stylesheet" type="text/css">
     <script src="#" defer></script>
     <title>
-        Opdracht 4.1
+        Opdracht 4.3
     </title>
 </head>
 <body>
@@ -33,7 +34,36 @@ include("../includes/header.php");
 <main id="wrapper">
     <h2>Uitwerkingen</h2>
     <?php
-    include("../includes/footer.php");
+    include("script43.php");
+    ?>
+    <h3>Taak 2</h3>
+    <?php
+    echo("<p>" . $task2 . "</p>");
+    ?>
+    <hr>
+    <h3>Taak 3</h3>
+    <?php
+    echo($task3);
+    ?>
+    <hr>
+    <h3>Taak 4</h3>
+    <?php
+    echo($task4);
+    ?>
+    <hr>
+    <h3>Taak 5</h3>
+    <?php
+    echo($task5);
+    ?>
+    <hr>
+    <h3>Taak 6</h3>
+    <?php
+    echo($task6);
+    ?>
+    <hr>
+    <h3>Taak 7</h3>
+    <?php
+    echo($task7);
     ?>
 </main>
 <?php

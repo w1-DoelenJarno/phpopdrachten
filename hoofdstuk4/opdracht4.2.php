@@ -16,7 +16,7 @@
     <link href="opdracht4.2.css" rel="stylesheet" type="text/css">
     <script src="#" defer></script>
     <title>
-        Index
+        Opdracht 4.2
     </title>
 </head>
 <body>
