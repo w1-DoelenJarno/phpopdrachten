@@ -67,7 +67,7 @@
         <li  class="chapter">Hoofdstuk 5
             <ul>
                 <li>
-                    <a href="#">Opdracht 5.1</a>
+                    <a href="hoofdstuk5/opdracht5.1.php">Opdracht 5.1</a>
                 </li>
                 <li>
                     <a href="#">Opdracht 5.2</a>

@@ -1,0 +1,28 @@
+input[type=text], input[type=tel], input[type=email], textarea {
+    width: 350px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    padding: 5px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+td {
+    border: 1px solid black;
+    width: 250px;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+textarea {
+    height: 150px;
+}
