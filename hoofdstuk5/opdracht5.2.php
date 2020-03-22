@@ -85,7 +85,7 @@
         </tr>
         <tr>
             <td>
-                Geef hieronder de reden van je uitschrijving op
+                <label for="messageReason">Geef hieronder de reden van je uitschrijving op</label>
             </td>
         </tr>
         <tr>
