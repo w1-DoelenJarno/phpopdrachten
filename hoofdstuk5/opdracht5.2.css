@@ -1,0 +1,25 @@
+form {
+    padding: 10px;
+    margin: 10px;
+}
+
+input[type=text], input[type=number], input[type=date] {
+    width: 245px;
+}
+
+input[type=date] {
+    width: 244px;
+}
+
+select {
+    width: 250px;
+}
+
+textarea {
+    height: 100px;
+    width: 550px;
+}
+
+input[type=submit] {
+    width: 150px;
+}
