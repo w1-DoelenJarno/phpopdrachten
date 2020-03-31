@@ -1,0 +1,50 @@
+<html>
+<head>
+</head>
+<body>
+<?php
+include ("instructie05functions.php");
+// Tonen ingevoerde gegevens
+?>
+<table>
+    <tr>
+        <td>
+            invoerveld
+        </td>
+        <td>
+            ingevulde gegevens
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Naam:
+        </td>
+        <td>
+            <?php
+            echo(checkFullName());
+            ?>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Gender
+        </td>
+        <td>
+            <?php
+            echo($_POST["gender"]);
+            ?>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Gemeente
+        </td>
+        <td>
+            <?php
+            echo($_POST["township"]);
+            ?>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
