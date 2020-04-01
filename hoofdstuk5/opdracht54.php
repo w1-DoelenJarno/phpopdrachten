@@ -1,9 +1,9 @@
 <?php
 /**
  * User: Jarno van der Doelen
- * Date: 31-03-2020
- * Time: 11:03 AM
- * File: form_data53.php
+ * Date: 01-04-2020
+ * Time: 09:05 AM
+ * File: opdracht5.4
  */
 ?>
 <!DOCTYPE html>
@@ -15,7 +15,7 @@
     <link href="../style.css" rel="stylesheet" type="text/css">
     <script src="#" defer></script>
     <title>
-        Opdracht 5.3
+        Opdracht 5.4
     </title>
 </head>
 <body>
@@ -41,8 +41,8 @@ include("../includes/header.php");
                 <b>Komt er een ambulance aan?</b>
             </td>
             <td>
-                <input type="radio" name="ambulance" value="ja">Ja
-                <input type="radio" name="ambulance" value="nee">Nee
+                <input type="radio" name="ambulanceComing" value="ja">Ja
+                <input type="radio" name="ambulanceComing" value="nee">Nee
             </td>
         </tr>
         <tr>
@@ -64,25 +64,25 @@ include("../includes/header.php");
     </h2>
     <?php
     if(isset($_POST["submit"])) {
-        if (isset($_POST["ambulance"]) && $_POST["ambulance"] == "ja" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "rood") {
+        if (isset($_POST["ambulanceComing"]) && $_POST["ambulanceComing"] == "ja" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "rood") {
             echo("<p>Stoplicht staat op " . $_POST["trafficLightColor"] . " en er komt een ambulance aan.</p>");
             echo("<p style=color:red;><b>U moet stoppen</b></p>");
-        } else if (isset($_POST["ambulance"]) && $_POST["ambulance"] == "ja" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "oranje") {
+        } else if (isset($_POST["ambulanceComing"]) && $_POST["ambulanceComing"] == "ja" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "oranje") {
             echo("<p>Stoplicht staat op " . $_POST["trafficLightColor"] . " en er komt een ambulance aan.</p>");
             echo("<p style=color:red;><b>U moet stoppen</b></p>");
-        } else if (isset($_POST["ambulance"]) && $_POST["ambulance"] == "ja" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "groen") {
+        } else if (isset($_POST["ambulanceComing"]) && $_POST["ambulanceComing"] == "ja" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "groen") {
             echo("<p>Stoplicht staat op " . $_POST["trafficLightColor"] . " en er komt een ambulance aan.</p>");
             echo("<p style=color:red;><b>U moet stoppen</b></p>");
-        } else if (isset($_POST["ambulance"]) && $_POST["ambulance"] == "nee" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "rood") {
+        } else if (isset($_POST["ambulanceComing"]) && $_POST["ambulanceComing"] == "nee" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "rood") {
             echo("<p>Stoplicht staat op " . $_POST["trafficLightColor"] . " en er komt geen ambulance aan.</p>");
             echo("<p style=color:red;><b>U moet stoppen</b></p>");
-        } else if (isset($_POST["ambulance"]) && $_POST["ambulance"] == "nee" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "oranje") {
+        } else if (isset($_POST["ambulanceComing"]) && $_POST["ambulanceComing"] == "nee" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "oranje") {
             echo("<p>Stoplicht staat op " . $_POST["trafficLightColor"] . " en er komt geen ambulance aan.</p>");
             echo("<p style=color:red;><b>U moet stoppen</b></p>");
-        } else if (isset($_POST["ambulance"]) && $_POST["ambulance"] == "nee" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "groen") {
+        } else if (isset($_POST["ambulanceComing"]) && $_POST["ambulanceComing"] == "nee" && isset($_POST["trafficLightColor"]) && $_POST["trafficLightColor"] == "groen") {
             echo("<p>Stoplicht staat op " . $_POST["trafficLightColor"] . " en er komt geen ambulance aan.</p>");
             echo("<p style=color:green;><b>U mag doorrijden</b></p>");
-        } else if (empty($_POST["ambulance"]) || empty($_POST["trafficLightColor"])) {
+        } else if (empty($_POST["ambulanceComing"]) || empty($_POST["trafficLightColor"])) {
             echo("Of stoplichtkleur is onbekend of het is onbekend of de ambulance komt.");
         }
     }
