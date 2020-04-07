@@ -79,6 +79,13 @@
                     <a href="hoofdstuk5/opdracht54.php">Opdracht 5.4</a>
                 </li>
             </ul>
+        <li class="chapter">Eindopdracht
+            <ul>
+                <li>
+                    <a href="EindopdrachtP3/login.php">Eindopdracht P3</a>
+                </li>
+            </ul>
+        </li>
     </ul>
 </aside>
 <main id="wrapper">
