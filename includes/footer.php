@@ -23,11 +23,23 @@ date_default_timezone_set("Europe/Amsterdam");
     }
 ?>
 
-<?php
-    include ("variabelen.php");
-
-    // De footer via echo getoond aan de gebruiker
-    echo("<footer>");
-    echo($greetings . "  bezoeker, &copy; " . $year . " " . $name);
-    echo("</footer>");
+<?php session_start();
+if (isset($_SESSION['username'])) {
+    $bezoeker = $_SESSION['username']. "&nbsp;<a 
+href='/phpopdrachten/hoofdstuk6/loguit.php'>Loguit</a>";
+}
+else {
+    $bezoeker = "onbekende bezoeker". "&nbsp;<a 
+href='/phpopdrachten/hoofdstuk6/opdracht61.php'>Login</a>";
+}
 ?>
+
+<?php
+include ("variabelen.php");
+
+// De footer via echo getoond aan de gebruiker
+echo("<footer>");
+echo($greetings . " " . $bezoeker . " &copy; " . $year);
+echo("</footer>");
+?>
+
