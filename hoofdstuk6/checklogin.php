@@ -11,6 +11,8 @@ foreach ($authUsers as $username => $password) {
     if ($_POST['username'] == $username && $_POST['password'] == $password)
     {
         $continue = true;
+    } else {
+        $continue = false;
     }
 }
 
