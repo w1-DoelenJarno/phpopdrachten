@@ -1,9 +1,9 @@
 <?php
 /**
  * User: Jarno van der Doelen
- * Date: 11-02-2020
- * Time: 12:06 PM
- * File: index.php
+ * Date: 21-04-2020
+ * Time: 09:45 AM
+ * File: opdracht6.1
  */
 ?>
 <!DOCTYPE html>

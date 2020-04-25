@@ -2,7 +2,7 @@
 /**
  * User: Jarno van der Doelen
  * Date: 21-04-2020
- * Time: 09:455 AM
+ * Time: 09:45 AM
  * File: opdracht6.1
  */
 ?>
