@@ -23,7 +23,10 @@ date_default_timezone_set("Europe/Amsterdam");
     }
 ?>
 
-<?php session_start();
+<?php
+if(!isset($_SESSION)) {
+    session_start();
+}
 if (isset($_SESSION['username'])) {
     $bezoeker = $_SESSION['username']. "&nbsp;<a 
 href='/phpopdrachten/hoofdstuk6/loguit.php'>Loguit</a>";
