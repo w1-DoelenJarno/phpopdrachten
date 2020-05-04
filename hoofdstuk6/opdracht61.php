@@ -50,7 +50,7 @@ include("../includes/header.php");
             </td>
         </tr>
     </table>
-    <input type="submit" value="Log in">
+    <input type="submit" value="Log in" name="submit">
 </form>
     <?php
     if(isset($_SESSION)) {
