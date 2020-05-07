@@ -90,6 +90,13 @@
                 </li>
             </ul>
         </li>
+        <li  class="chapter">Hoofdstuk 7
+            <ul>
+                <li>
+                    <a href="hoofdstuk7/opdracht71.php">Opdracht 7.1</a>
+                </li>
+            </ul>
+        </li>
         <li class="chapter">Eindopdracht
             <ul>
                 <li>
