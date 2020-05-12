@@ -95,6 +95,12 @@ include("../includes/header.php");
                 <li>
                     <a href="../hoofdstuk7/opdracht71.php">Opdracht 7.1</a>
                 </li>
+                <li>
+                    <a href="../hoofdstuk7/opdracht72.php">Opdracht 7.2</a>
+                </li>
+                <li>
+                    <a href="../hoofdstuk7/opdracht73.php">Opdracht 7.3</a>
+                </li>
             </ul>
         </li>
         <li class="chapter">Eindopdracht

@@ -65,8 +65,9 @@ include("../includes/header.php");
         $aJokes[] = $row; }
 
     // Tonen van de inhoud van aJokes
+    echo("<pre>");
     var_dump($aJokes);
-
+    echo("</pre>");
     foreach ($aJokes as $index => $value) {
         echo("<p>" . $value["joketext"] . $value["jokeclou"] . "</p>");
     }
