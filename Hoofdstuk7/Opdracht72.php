@@ -1,11 +1,12 @@
 <?php
 /**
  * User: Jarno van der Doelen
- * Date: 07-05-2020
- * Time: 10:43 AM
- * File: opdracht7.1
+ * Date: 12-05-2020
+ * Time: 08:46 AM
+ * File: opdracht7.2
  */
 ?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -14,7 +15,7 @@
     <meta charset="utf-8">
     <link href="../style.css" type="text/css" rel="stylesheet">
     <title>
-        Opdracht7.1
+        Opdracht7.2
     </title>
 </head>
 <body>
@@ -46,7 +47,7 @@ include("../includes/header.php");
     // Uitvoeren van een SQl query
     try {
         // Query schrijven
-        $sql = 'SELECT * FROM joke WHERE id = 1';
+        $sql = 'SELECT * FROM joke WHERE jokedate < GETDATE()';
 
         // Query uitvoeren
         $result = $pdo->query($sql);
@@ -65,11 +66,12 @@ include("../includes/header.php");
         $aJokes[] = $row; }
 
     // Tonen van de inhoud van aJokes
-    var_dump($aJokes);
 
+    echo("<table><tr><th>ID</th><th>Joketext</th><th>Jokeclou</th><th>Jokedate</th></tr>");
     foreach ($aJokes as $index => $value) {
-        echo("<p>" . $value["joketext"] . $value["jokeclou"] . "</p>");
+        echo("<tr><td>" . $value["id"] . "</td><td>" . $value["joketext"] . "</td><td>" . $value["jokeclou"] . "</td><td>" . $value["jokedate"] ."</td></tr>");
     }
+    echo("</table>");
     ?>
 </main>
 <?php
