@@ -86,6 +86,7 @@ include("../includes/header.php");
         }
         ?>
     </table>
+    <p><a href="insert.php">Grap toevoegen</a></p>
 </main>
 <?php
 include("../includes/footer.php");
